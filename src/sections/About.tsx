@@ -14,11 +14,8 @@ import ToolboxItems from "@/components/ToolboxItems";
 import { motion } from "framer-motion";
 import { useRef } from "react";
 
+
 const toolboxItems = [
-  {
-    title: "JavaScript",
-    iconType: JavascriptIcon,
-  },
   {
     title: "Html5",
     iconType: Html,
@@ -28,19 +25,31 @@ const toolboxItems = [
     iconType: Css,
   },
   {
-    title: "React",
-    iconType: React,
-  },
-  {
-    title: "Chrome",
-    iconType: Chrome,
+    title: "JavaScript",
+    iconType: JavascriptIcon,
   },
   {
     title: "Typescript",
     iconType: React,
   },
   {
+    title: "React",
+    iconType: React,
+  },
+  {
+    title: "NextJs",
+    iconType: React,
+  },
+  {
+    title: "Chrome DevTools",
+    iconType: Chrome,
+  },
+  {
     title: "GitHub",
+    iconType: GitHub,
+  },
+  {
+    title: "Redux Toolkit",
     iconType: GitHub,
   },
 ];
