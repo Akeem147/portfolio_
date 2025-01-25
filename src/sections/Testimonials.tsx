@@ -57,7 +57,7 @@ export const TestimonialsSection = () => {
           description={description}
         />
 
-        <div className="mt-12 lg:mt-20 flex  [mask-image:linear-gradient(to_right, transparent, black_10%, black_90%, transparent)] py-4 -my-4">
+        <div className="mt-12 lg:mt-20 flex overflow-x-hidden [mask-image:linear-gradient(to_right, transparent, black_10%, black_90%, transparent)] py-4 -my-4">
           <div className="flex flex-none md:gap-6 gap-3 animate-move-left pr-8 [animation-duration:80s] hover:[animation-play-state:paused]">
             {[...new Array(2)].fill(0).map((_, index) => (
               <Fragment key={index}>
