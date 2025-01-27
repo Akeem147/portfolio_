@@ -35,8 +35,8 @@ const testimonials = [
     avatar: memojiAvatar4,
   },
   {
-    name: "Michael Brown",
-    position: "Director of IT @ MegaCorp",
+    name: "Ohale Ohamba",
+    position: "CEO HaleTech Services",
     text: "From start to finish, the process was smooth and the communication with Akeem was excellent. He turned our vision into reality with a stunning, responsive site. The final product was delivered on time and is already boosting our online engagement.",
     avatar: memojiAvatar5,
   },
