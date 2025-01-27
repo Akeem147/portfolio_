@@ -14,9 +14,9 @@ const portfolioProjects = [
     year: "2024",
     title: "Ecommerce",
     results: [
-      { title: "Enhanced user experience by 40%" },
-      { title: "Improved site speed by 50%" },
-      { title: "Increased mobile traffic by 35%" },
+      { title: "Improved user experience" },
+      { title: "Boosted site performance" },
+      { title: "Enhanced mobile traffic" },
     ],
     link: "https://phlox-kohl.vercel.app",
     image: darkSaasLandingPage,
@@ -26,9 +26,9 @@ const portfolioProjects = [
     year: "2024",
     title: "Patient Management System",
     results: [
-      { title: "Boosted sales by 20%" },
-      { title: "Expanded customer reach by 35%" },
-      { title: "Increased brand awareness by 15%" },
+      { title: "Streamlined appointment scheduling" },
+      { title: "Expanded patient outreach" },
+      { title: "Enhanced brand visibility" },
     ],
     link: "https://care-plus-five.vercel.app/",
     image: lightSaasLandingPage,
@@ -38,17 +38,17 @@ const portfolioProjects = [
     year: "2025",
     title: "Book a Meeting or Conference Room For Your Team",
     results: [
-      { title: "Enhanced user experience by 40%" },
-      { title: "Improved site speed by 50%" },
-      { title: "Increased mobile traffic by 35%" },
+      { title: "Improved booking process" },
+      { title: "Enhanced app performance" },
+      { title: "Increased mobile engagement" },
     ],
     link: "https://book-it-olive.vercel.app/",
     image: aiStartupLandingPage,
   },
 ];
 
-const title = "Featured projects";
-const eyebrow = "Real-world projects";
+const title = "";
+const eyebrow = "Featured projects";
 const description =
   "See how i transformed concepts into engaging digital experience";
 
