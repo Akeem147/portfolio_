@@ -34,15 +34,15 @@ const portfolioProjects = [
     image: lightSaasLandingPage,
   },
   {
-    company: "Quantum Dynamics",
-    year: "2023",
-    title: "AI Startup Landing Page",
+    company: "BookIt",
+    year: "2025",
+    title: "Book a Meeting or Conference Room For Your Team",
     results: [
       { title: "Enhanced user experience by 40%" },
       { title: "Improved site speed by 50%" },
       { title: "Increased mobile traffic by 35%" },
     ],
-    link: "https://youtu.be/Z7I5uSRHMHg",
+    link: "https://book-it-olive.vercel.app/",
     image: aiStartupLandingPage,
   },
 ];
@@ -67,10 +67,10 @@ export const ProjectsSection = () => {
               key={project.title}
               className="md:pt-12 md:px-10 lg:pt-16 lg:px-20 pb-0 p-8 sticky top-16"
               style={{
-               top: `calc(64px + ${projectIndex * 40}px`
+                top: `calc(64px + ${projectIndex * 40}px`,
               }}
             >
-              <div className="lg:grid lg:grid-cols-2 lg:gap-16">
+              <div className="lg:grid  lg:grid-cols-2 lg:gap-16">
                 <div className="lg:pb-16">
                   <div className="bg-gradient-to-r from-emerald-300 to-sky-400 inline-flex gap-2 font-bold uppercase tracking-widest text-sm text-transparent bg-clip-text">
                     <span>{project.company}</span>
@@ -84,7 +84,10 @@ export const ProjectsSection = () => {
                   <hr className="border-t-2 border-white/5 mt-4 md:mt-5" />
                   <ul className="flex flex-col gap-4 mt-4 md:mt-5">
                     {project.results.map((result, i) => (
-                      <li key={i} className="flex gap-2 text-sm md:text-base text-white/50">
+                      <li
+                        key={i}
+                        className="flex gap-2 text-sm md:text-base text-white/50"
+                      >
                         <CheckIcon className="size-5 md:size-6" />
                         <span>{result.title}</span>
                       </li>
