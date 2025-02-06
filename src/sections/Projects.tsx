@@ -1,6 +1,7 @@
 import darkSaasLandingPage from "@/assets/images/dark-saas-landing-page.png";
 import lightSaasLandingPage from "@/assets/images/light-saas-landing-page.png";
 import aiStartupLandingPage from "@/assets/images/ai-startup-landing-page.png";
+import newDashboard from "@/assets/images/new-dash.png";
 import Link from "next/link";
 import Image from "next/image";
 import CheckIcon from "@/assets/icons/check-circle.svg";
@@ -44,6 +45,18 @@ const portfolioProjects = [
     ],
     link: "https://book-it-olive.vercel.app/",
     image: aiStartupLandingPage,
+  },
+  {
+    company: "Analytics Hub",
+    year: "2025",
+    title: "A Real Time Dashboard Analytics",
+    results: [
+      { title: "Optimized Data Visualization" },
+      { title: "Real-Time Analytics Insights" },
+      { title: "Streamlined User Engagement Metrics" },
+    ],
+    link: "https://dashboad-project.vercel.app/",
+    image: newDashboard,
   },
 ];
 
