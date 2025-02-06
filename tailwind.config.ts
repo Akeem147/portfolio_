@@ -16,7 +16,7 @@ const config: Config = {
     container: {
       center: true,
       padding: {
-        DEFAULT: "1rem",
+        DEFAULT: "14px",
         md: "2rem",
       },
     },
